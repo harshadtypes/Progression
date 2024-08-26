@@ -12,6 +12,5 @@
             "src":"/(.*)",
             "dest":"app.py"
         }
-    ],
-    "buildCommand": "./build.sh"
+    ]
 }
