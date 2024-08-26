@@ -4,7 +4,7 @@
         {
             "src":"./index.py",
             "use": "@vercel/python",
-            "config":{"runtime":"Python3.11.x"}
+            "config":{"runtime":"Python3.12.x"}
         }
     ],
     "routes": [
