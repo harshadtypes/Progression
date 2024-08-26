@@ -4,7 +4,7 @@
         {
             "src":"./index.py",
             "use": "@vercel/python",
-            "config":{"runtime":"Python3.11.4"}
+            "config":{"runtime":"Python3.11.x"}
         }
     ],
     "routes": [
@@ -12,7 +12,5 @@
             "src":"/(.*)",
             "dest":"app.py"
         }
-    ],
-
-  "installCommand": "pip install -r requirements.txt"
+    ]
 }
