@@ -91,7 +91,3 @@ def submit():
 @app.route('/show_image')
 def show_image():
     return render_template('result.html')
-
-
-if __name__ == "__main__":
-    app.run(debug=True, port=8000)
