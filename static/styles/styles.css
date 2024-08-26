@@ -1,0 +1,15 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    font-family: "MuseoModerno", sans-serif;
+    font-size: 120px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+    text-align: center;
+    background-image: url(/static/assets/Desktop\ -\ 1.png);
+}
