@@ -4,13 +4,15 @@
         {
             "src":"./index.py",
             "use": "@vercel/python",
-            "config":{"runtime":"Python3.6"}
+            "config":{"runtime":"Python3.11.4"}
         }
     ],
     "routes": [
         {
             "src":"/(.*)",
-            "dest":"/"
+            "dest":"app.py"
         }
-    ]
+    ],
+
+  "installCommand": "pip install -r requirements.txt"
 }
